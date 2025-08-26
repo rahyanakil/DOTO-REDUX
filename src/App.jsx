@@ -1,14 +1,10 @@
 function App() {
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-xl p-4 m-4">Start Coding in React 19</h1>
-      <p className="bg-gray-300 p-2 rounded text-3xl">
-        <a 
-          href="" 
-          target="_blank"
-          className="underline mx-1">Learn React 19 With Code</a>
-        <span>▶️</span>  
-      </p>
+    <div className="flex flex-col align-center items-center">
+      <h1 className="pb-6">Counter with Redux</h1>
+      <button className="bg-cyan-400 p-2 rounded">Increment</button>
+      <div className="p-4">0</div>
+      <button className="bg-red-400 p-2 rounded">Decrement</button>
     </div>
   );
 }
